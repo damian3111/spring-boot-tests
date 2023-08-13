@@ -29,6 +29,7 @@ class ProductRepositoryTest extends BaseIT {
     @Test
     void itShouldSaveProduct() {
         //given
+
         Product product = new Product();
         product.setPrice(44.99f);
         product.setName("book");
